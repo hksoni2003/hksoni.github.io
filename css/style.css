@@ -85,9 +85,9 @@ max-width:900px;
 }
 
 .profile img{
-width:220px;
-border-radius:8px;
-flex-shrink:0;
+width:230px;
+border-radius:10px;
+box-shadow:0 6px 12px rgba(0,0,0,0.15);
 }
 
 .profile-info{
