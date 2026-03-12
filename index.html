@@ -12,20 +12,31 @@
 <style>
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 margin:0;
-background:#f4f4f4;
+background:#f7f7f7;
 }
 
 .hero{
-background:#0b3d5c;
+background-image:url("images/20180116_160716.jpg");
+background-size:cover;
+background-position:center;
 color:white;
-padding:60px;
+padding:120px 20px;
 text-align:center;
 }
 
+.hero h1{
+font-size:48px;
+margin:0;
+}
+
+.hero p{
+font-size:20px;
+}
+
 nav{
-background:#145a7a;
+background:#083c5a;
 padding:15px;
 text-align:center;
 }
@@ -42,9 +53,9 @@ text-decoration:underline;
 }
 
 .container{
-padding:40px;
 max-width:1100px;
 margin:auto;
+padding:40px;
 }
 
 .grid{
@@ -55,21 +66,33 @@ gap:30px;
 
 .card{
 background:white;
-padding:20px;
+padding:25px;
 box-shadow:0px 2px 6px rgba(0,0,0,0.1);
 flex:1;
 min-width:250px;
 }
 
 .card img{
-max-width:100%;
+width:100%;
+}
+
+.profile{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+align-items:center;
+}
+
+.profile img{
+width:220px;
+border-radius:8px;
 }
 
 footer{
-background:#0b3d5c;
+background:#083c5a;
 color:white;
 text-align:center;
-padding:20px;
+padding:25px;
 margin-top:40px;
 }
 
@@ -84,7 +107,7 @@ margin-top:40px;
 <h1>Cancer Biology and Imaging Laboratory</h1>
 
 <p>
-Computational Oncology • Cytogenetics • Cancer Genomics • AI in Biomedical Research
+Computational Oncology • Cytogenetics • Cancer Genomics • AI Biology
 </p>
 
 <p>
@@ -107,30 +130,32 @@ Dr. Harshit Kumar Soni
 </nav>
 
 
+
 <section class="container">
 
 <h2>Principal Investigator</h2>
 
-<div class="grid">
+<div class="profile">
 
-<div class="card">
+<img src="images/HK_Profile_Photo-removebg-preview.png">
 
-<img src="images/HK_Profile_Photo-removebg-preview.png" width="200">
+<div>
 
 <h3>Dr. Harshit Kumar Soni</h3>
 
 <p>
 Assistant Professor  
 Department of Zoology  
-Government PG College Satna, India
+Government PG College Satna
 </p>
 
 <p>
 
-Dr. Harshit Kumar Soni is a cancer cell biologist and bioinformatics researcher
-working at the intersection of computational biology, genomics, and artificial
-intelligence. His research focuses on discovering molecular mechanisms and
-therapeutic targets in cancer using multi-omics analysis and computational modeling.
+Dr. Harshit Kumar Soni is a cancer cell biologist and bioinformatics
+researcher whose work focuses on computational oncology, cytogenetics,
+and AI-driven biomedical discovery. His research integrates multi-omics
+analysis, structural biology, and machine learning to understand
+molecular mechanisms of cancer and identify novel therapeutic targets.
 
 </p>
 
@@ -144,7 +169,7 @@ therapeutic targets in cancer using multi-omics analysis and computational model
 
 <section class="container">
 
-<h2>Research Focus</h2>
+<h2>Research Areas</h2>
 
 <div class="grid">
 
@@ -153,8 +178,8 @@ therapeutic targets in cancer using multi-omics analysis and computational model
 <h3>Cancer Genomics</h3>
 
 <p>
-Integrative analysis of gene expression and multi-omics data
-to identify biomarkers and therapeutic targets in cancer.
+Multi-omics analysis for biomarker discovery
+and cancer subtype characterization.
 </p>
 
 </div>
@@ -165,8 +190,8 @@ to identify biomarkers and therapeutic targets in cancer.
 <h3>Cytogenetics</h3>
 
 <p>
-Study of chromosomal abnormalities and genomic instability
-associated with cancer progression.
+Chromosomal instability and genomic alterations
+in cancer development.
 </p>
 
 </div>
@@ -177,8 +202,8 @@ associated with cancer progression.
 <h3>Computational Drug Discovery</h3>
 
 <p>
-Molecular docking and simulation approaches for identifying
-novel therapeutic targets and small-molecule modulators.
+Structure-based discovery of therapeutic targets
+using docking and molecular dynamics.
 </p>
 
 </div>
@@ -186,11 +211,11 @@ novel therapeutic targets and small-molecule modulators.
 
 <div class="card">
 
-<h3>AI in Biomedical Research</h3>
+<h3>AI in Cancer Biology</h3>
 
 <p>
-Application of artificial intelligence and machine learning
-to understand disease mechanisms and predict biomarkers.
+Machine learning models for understanding
+disease mechanisms and predicting biomarkers.
 </p>
 
 </div>
@@ -203,53 +228,50 @@ to understand disease mechanisms and predict biomarkers.
 
 <section class="container">
 
-<h2>Current Research Projects</h2>
+<h2>Featured Research Projects</h2>
 
 <div class="grid">
 
 <div class="card">
 
-<h3>KRAS Regulatory Interface Discovery</h3>
+<h3>KRAS Cryptic Regulatory Interfaces</h3>
 
 <p>
-AI-driven discovery of cryptic regulatory interfaces
-in oncogenic KRAS signaling.
+AI-driven discovery of cryptic regulatory
+interfaces in oncogenic KRAS signaling.
 </p>
 
 </div>
-
 
 <div class="card">
 
-<h3>Natural GLP-1R Modulators</h3>
+<h3>Natural GLP-1R Modulator Discovery</h3>
 
 <p>
-Computational screening of natural compounds
-for GLP-1 receptor modulation.
+Computational discovery of natural compounds
+modulating the GLP-1 receptor.
 </p>
 
 </div>
-
 
 <div class="card">
 
 <h3>Environmental Epigenomics</h3>
 
 <p>
-Understanding environmental influences
-on cancer susceptibility via epigenomic networks.
+Environmental-epigenomic network rewiring
+and cancer susceptibility.
 </p>
 
 </div>
 
-
 <div class="card">
 
-<h3>Endocrine Disruptors and Cancer Risk</h3>
+<h3>Endocrine Disruptors & Cancer Risk</h3>
 
 <p>
-Cytogenetic and epigenetic investigation
-of environmental exposures in rural populations.
+Cytogenetic and epigenetic effects of
+environmental toxins in rural populations.
 </p>
 
 </div>
@@ -268,16 +290,7 @@ of environmental exposures in rural populations.
 
 <div class="card">
 
-<img src="images/20180116_160716.jpg">
-
-<p>Scientific Event</p>
-
-</div>
-
-<div class="card">
-
 <img src="images/IMG-20170923-WA0002.jpg">
-
 <p>Academic Interaction</p>
 
 </div>
@@ -285,20 +298,43 @@ of environmental exposures in rural populations.
 <div class="card">
 
 <img src="images/IMG-20180705-WA0011.jpg">
-
-<p>Conference Activity</p>
+<p>Scientific Event</p>
 
 </div>
 
 <div class="card">
 
 <img src="images/IMG_20190727_152706.jpg">
-
 <p>In Lab</p>
 
 </div>
 
+<div class="card">
+
+<img src="images/WhatsApp Image 2025-01-11 at 18.15.22_23186dec.jpg">
+<p>Conference Activity</p>
+
 </div>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Join the Lab</h2>
+
+<p>
+
+The laboratory welcomes motivated students interested in cancer biology,
+bioinformatics, and computational biology.
+
+Prospective students interested in PhD, MSc, or collaborative research
+are encouraged to contact the laboratory.
+
+</p>
 
 </section>
 
@@ -311,7 +347,6 @@ of environmental exposures in rural populations.
 </p>
 
 </footer>
-
 
 </body>
 </html>
